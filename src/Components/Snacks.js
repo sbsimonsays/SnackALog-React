@@ -20,7 +20,7 @@ function Snacks() {
 
   return (
     <div className="Snacks">
-      <section>
+      <section className="deeznutz">
         {snacks.map((snack) => (
           <Snack key={snack.id} snack={snack} />
         ))}
